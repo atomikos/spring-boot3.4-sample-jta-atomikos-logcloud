@@ -11,6 +11,8 @@ spring:
       ddl-auto: update
   datasource:
     url: jdbc:h2:./logcloud
+    username: sa
+    password: password
   jta:
     atomikos:
       datasource:
@@ -26,3 +28,7 @@ spring:
 atomikos:
   properties:
     transaction-manager-unique-name: logcloud
+
+logging:
+  level:
+    `[com.atomikos]': DEBUG
