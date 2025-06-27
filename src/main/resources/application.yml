@@ -24,11 +24,13 @@ spring:
     init:
       continue-on-error: true
       mode: always
-
+  h2:
+    console:
+      enabled: true
 atomikos:
   properties:
     transaction-manager-unique-name: logcloud
 
 logging:
   level:
-    `[com.atomikos]': DEBUG
+    '[com.atomikos]': DEBUG 

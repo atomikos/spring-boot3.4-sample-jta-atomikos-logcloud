@@ -80,6 +80,12 @@
 			<version>${atomikos.version}</version>
 		</dependency>
 		<dependency>
+			<groupId>com.atomikos</groupId>
+			<artifactId>transactions-hibernate4</artifactId>
+			<version>${atomikos.version}</version>
+			<classifier>jakarta</classifier>
+		</dependency>
+		<dependency>
 			<groupId>javax.ws.rs</groupId>
 			<artifactId>javax.ws.rs-api</artifactId>
 			<version>2.0.1</version>
