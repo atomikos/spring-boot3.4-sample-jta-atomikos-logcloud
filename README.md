@@ -10,7 +10,7 @@ This example is based on the <a href="https://github.com/spring-projects/spring-
 * Added the transactions-logcloud dependency in the POM, so the LogCloud is activated automatically and overrides file-based logging.
 * Modified application.properties to configure the LogCloud to use the application's datasource for logging and recovery (so no 2 datasources are needed).
 * Added schema.sql and data.sql to initialize the LogCloud tables.
-* 
+  
 ## About the dependencies
 
 Every `com.atomikos` dependency in this project's `pom.xml` (not only `transactions-logcloud`) resolves from the ExtremeTransactions distribution at the version pinned in the POM, including the base JTA and Spring Boot integration artifacts.
